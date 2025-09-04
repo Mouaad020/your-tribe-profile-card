@@ -10,7 +10,7 @@ expandButton?.addEventListener('click', function() {
 
 const wiebenik = document.querySelector('.wiebenik')
 
-wiebenik.addEventListener('click', function(){
+wiebenik?.addEventListener('click', function(){
 window.location.href = "wiebenik.html"
 console.log('gelukt')
 })

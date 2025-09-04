@@ -87,6 +87,7 @@ button.profile-card-example-button svg:nth-of-type(2) {
   border-radius: 10em;
   box-shadow: 0 0 2px 2px rgba(0,0,0,.2);
   transition: .25s .15s;
+  grid-column-start: 3;
 }
 
 .profile-card-example-dl {
@@ -167,7 +168,7 @@ body.is-expanded .profile-card-example-button svg:nth-of-type(2) {
 }
 
 body.is-expanded .profile-card-example-dl dd {
-  font-size: 1.75em;
+  font-size: 1.05em;
 }
 
 body.is-expanded .profile-card-example-img {
@@ -184,4 +185,17 @@ cursor: pointer;
 
 .ervaring {
 cursor: pointer;
+}
+
+#test {
+  position: relative;
+  top: 2rem;
+  width: 8em;
+  height: 170px;
+  border: 5px solid #fff;
+  border-radius: 5em;
+  box-shadow: 0 0 2px 2px rgba(0,0,0,.2);
+  transition: .25s .15s;
+  grid-column-start: 3;
+  top: -20px;
 }

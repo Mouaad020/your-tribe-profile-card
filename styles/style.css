@@ -41,18 +41,27 @@ h1 {
 width: 60%;               
   margin: 20px;
   top: 20px;
+  cursor: pointer;
 
  } 
 
 .mijnervaring{
 width: 60%;               
   margin: 20px;
+  cursor: pointer;
 }
 
 .hobby{
 width: 60%;               
   margin: 20px;
+  cursor: pointer;
 } 
+
+.home {
+  width: 60%;               
+  margin: 20px;
+  cursor: pointer;
+}
 
 .containerimg{
     display: flex;
@@ -67,4 +76,9 @@ width: 60%;
 .image {
   height: 800px;
   width: 800px;
+}
+
+.lijst {
+  margin-bottom: 50px;
+
 }

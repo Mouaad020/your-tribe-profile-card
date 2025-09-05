@@ -1,3 +1,9 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+
 .kaartje{
     border: 4px solid rgb(3, 2, 2);
     border-radius: 50px;
@@ -8,18 +14,28 @@
    margin-left: auto;
    margin-right: auto;    
    background-color:aqua;
+  background-image: url('../assets/gear-5-monkey-d-1920x1200-17522.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
     text-align: center;
 }
 
-.pages{
-    display: flex;
-    margin: 0;
-    justify-content: center;
-    text-align: center;
+.pages {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px; 
+  list-style: none;
+  padding: 100px;
+  margin: 100px 0;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+
 }
+
 
   .wiebenik {
 width: 60%;               
@@ -46,4 +62,9 @@ width: 60%;
 .foto1{
     width: 30%;
     clip-path: circle(40%);
+}
+
+.image {
+  height: 800px;
+  width: 800px;
 }
